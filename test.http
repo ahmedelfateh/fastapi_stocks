@@ -1,0 +1,11 @@
+#https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+post http://127.0.0.1:8000/data 
+content-type: application/json
+
+{
+    "symbol": "",
+}
+
+###
+
+get http://127.0.0.1:8000
